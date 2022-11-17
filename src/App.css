@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: whitesmoke;
+  background-color: rgb(240, 222, 244);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@ header {
 .fab {
   position: absolute;
   bottom: 24px;
-  
+  color: rgb(225, 0, 255);
 }
 
 

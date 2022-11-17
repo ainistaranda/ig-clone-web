@@ -1,0 +1,19 @@
+import { Card, Avatar } from 'antd'
+
+
+export default function Post({ post }) {
+  return (
+    <Card
+      style = {{ width: 300 }}
+      cover = {
+        <img alt= {post.description} src={post.photo}></img>
+      }
+      >
+      <Card.Meta 
+      avatar={<Avatar src='https://randomuser.me/api/portraits/men/10.jpg' />}
+      title={post.username}
+      description={post.description}
+      />
+    </Card>
+  )
+}
