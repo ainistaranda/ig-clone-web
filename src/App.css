@@ -31,7 +31,7 @@ header {
 
 .ant-card{
   margin-bottom: 16px;
-  border: solid black;
+  border: dashed black;
 }
 
 .photo-feed {

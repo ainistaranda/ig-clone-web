@@ -18,7 +18,7 @@ export default function Feed() {
       {!photoList 
       ? <p>Loading...</p> 
       : <p>{photoList.map(post => (
-        <Post post={post} key={post.photoId}/>
+        <Post setPhotoList={setPhotoList} post={post} key={post.photoId}/>
       ))}</p>
       }
       { showUpload ? <UploadModal setShowUpload={setShowUpload} setPhotoList={setPhotoList} /> : null}
